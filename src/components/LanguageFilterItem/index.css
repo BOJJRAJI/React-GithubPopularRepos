@@ -1,0 +1,28 @@
+.language-item {
+  list-style-type: none;
+}
+.active-button {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+.inActive-button {
+  border: none;
+  color: #0f172a;
+  background-color: #ffffff;
+  border-radius: 9px;
+  font-family: 'Roboto';
+  padding: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}

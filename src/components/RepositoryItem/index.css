@@ -1,0 +1,73 @@
+.repository-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f8f8ff;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 30%;
+}
+.repository-image {
+  height: 80px;
+  width: 80px;
+}
+.repository-name {
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #e73959;
+}
+.star-container {
+  display: flex;
+  flex-direction: row;
+}
+.fork-container {
+  display: flex;
+  flex-direction: row;
+}
+.issues-container {
+  display: flex;
+  flex-direction: row;
+}
+.star-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.fork-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.issues-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.repository-star {
+  font-size: 13px;
+  font-family: 'Roboto';
+
+  color: #1e293b;
+}
+.repository-forks {
+  font-size: 13px;
+  font-family: 'Roboto';
+
+  color: #1e293b;
+}
+.repository-issues {
+  font-size: 13px;
+  font-family: 'Roboto';
+
+  color: #1e293b;
+}
+
+@media screen and (max-width: 576px) {
+  .repository-list {
+    width: 100%;
+    margin-right: 10px;
+  }
+}
